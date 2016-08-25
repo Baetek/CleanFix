@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
-<script src="{{ url_for('static', filename='main9.js')}}"></script>
+<script src="{{ url_for('static', filename='main10.js')}}"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
-<link rel="stylesheet" href="{{ url_for('static', filename='styles9.css')}}">
+<link rel="stylesheet" href="{{ url_for('static', filename='styles10.css')}}">
 
 </head>
 
@@ -76,7 +76,7 @@ chosen link or button. -->
             <a href="\"><img class='full-height-image' src="{{ url_for('static', filename='logoboardalpha.png') }}"></a>
         </div>
     </div>
-    <div id="navigation-wrapper" class="z-depth-1">
+    <!--<div id="navigation-wrapper" class="z-depth-1">
         <div class='main-content-wrapper'>
             <div id = "nav-buttons-wrapper">
             <a class="waves-effect waves btn-flat nav-link blue-text" href="#about-card"><b>About</b></a>
@@ -87,7 +87,18 @@ chosen link or button. -->
             </div>
 
         </div>
+    </div>-->
+    <div id="navigation-wrapper" class="z-depth-1">
+        <div class='main-content-wrapper'>
+            <a class="nav-link" href="#about-card"><b>About</b></a>
+            <a class="nav-link" href="#prices-card"><b>Prices</b></a>
+            <a class="nav-link" href="#contact-card"><b>Contact</b></a>
+            <a class="nav-link" href="#coverage-card"><b>Coverage</b></a>
+            <a class="nav-link" href="#review-card"><b>Reviews</b></a>
+
+        </div>
     </div>
+
     <div id="nav-wrapper-place-holder"></div>
     <div class='main-content-wrapper'>
         <br>
@@ -153,7 +164,8 @@ chosen link or button. -->
             <img class='full-width-image' src="{{ url_for('static', filename='diy.jpg') }}"></a>
             <div class="main-padded-wrapper">
                 I will diagnose problems and inform you of repair costs before carrying out repairs but if you know what's wrong, feel free
-                to look up(down) the pricing below. Please <a href = "#contact-card">get in touch</a> for a more accurate quote. <br><br>
+                to look up(down) the pricing below. Please <a href="#contact-card">get in touch</a> for a
+                more accurate quote. <br><br>
                 <b>Smashed Screen</b>
                 <ul class="collection">
                     <li class="collection-item">Laptop Screen Replacement: £15</li>
@@ -254,7 +266,7 @@ chosen link or button. -->
                 cost before repairs are carried out</i></blockquote>
             </div>
         </div>
-        
+
         <br>
         <a class="anchor" id="contact-card"></a>
         <h5>
@@ -265,6 +277,7 @@ chosen link or button. -->
         <div class="content-card z-depth-1">
             <img class='full-width-image' src="{{ url_for('static', filename='contact.jpg') }}"></a>
             <div class="main-padded-wrapper">
+                <div id = "on-pic-number">075-06874-100</div>
                 <!--<div id='instant-contact-blurb-wrapper'>
                     <span id="instant-contact-blur">Get in touch now for a quote, to book or for advice</span>
                 </div>

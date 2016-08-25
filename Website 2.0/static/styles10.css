@@ -35,12 +35,6 @@ body {
     align-items: center;
 }
 
-.nav-link{
-
-
-}
-
-
 .main-content-wrapper {
     width: 60rem;
     height: inherit;
@@ -67,6 +61,7 @@ body {
     background-color: white;
 }
 
+
 @media only screen and (max-width: 53rem) {
     .main-content-wrapper {
         width: 100%;
@@ -77,6 +72,8 @@ body {
     }
 
 }
+
+
 
 blockquote {
     border-left-color: #2F5597;
@@ -293,3 +290,50 @@ a.anchor {
     visibility: hidden;
 }
 
+.nav-link{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media only screen and (max-width: 35rem) {
+    .nav-link{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+}
+
+@media only screen and (max-width: 30rem) {
+    .nav-link{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+}
+
+@media only screen and (max-width: 28rem) {
+    .nav-link{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+}
+
+@media only screen and (max-width: 27rem) {
+    .nav-link{
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+}
+
+@media only screen and (max-width: 23rem) {
+    .nav-link{
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+}
+
+#on-pic-number{
+    color: ghostwhite;
+    margin-top: -8rem;
+    margin-bottom: 7rem;
+    font-size: 2rem;
+    z-index: 9;
+}
