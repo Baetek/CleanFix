@@ -1,0 +1,49 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #F1F1F1;
+    overflow-y: scroll;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-weight: 400;
+}
+
+.nav-wrapper {
+    padding-left: 6rem;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+blockquote {
+    border-left-color: #37474f;
+}
+
+#post-code-status {
+    text-align: center;
+    font-weight: 600;
+}
+
+#post-code-checker {}
+
+#post-code-button {
+    flex-shrink: 0;
+    /*display: inline;*/
+}
+
+#coverage-field-container {
+    justify-content: center;
+    text-justify: center;
+    display: flex;
+    align-items: center;
+}
+
+#post-code-checker-label {
+    text-align: start;
+}

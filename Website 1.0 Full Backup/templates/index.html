@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CleanFixComputers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#455a64" />
+    <!--<link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400" rel="stylesheet">-->
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='main18.js')}}"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}">
+</head>
+
+<body>
+    <!-- Google Code for call-back Requests Conversion Page
+In your html page, add the snippet and call
+goog_report_conversion when someone clicks on the
+chosen link or button. -->
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        goog_snippet_vars = function() {
+                var w = window;
+                w.google_conversion_id = 971959479;
+                w.google_conversion_label = "kT6HCNaGjWgQt9m7zwM";
+                w.google_remarketing_only = false;
+            }
+            // DO NOT CHANGE THE CODE BELOW.
+        goog_report_conversion = function(url) {
+                goog_snippet_vars();
+                window.google_conversion_format = "3";
+                var opt = new Object();
+                opt.onload_call - back = function() {
+                    if (typeof(url) != 'undefined') {
+                        window.location = url;
+                    }
+                }
+                var conv_handler = window['google_trackConversion'];
+                if (typeof(conv_handler) == 'function') {
+                    conv_handler(opt);
+                }
+            }
+            /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion_async.js">
+    </script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-46104977-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+    <header>
+
+        <nav>
+            <div class="nav-wrapper blue-grey darken-1">
+
+                <a href="/" class="brand-logo">CleanFixComputers</a>
+
+            </div>
+        </nav>
+
+    </header>
+    <main>
+
+
+
+
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col s12 m12 l6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="{{ url_for('static', filename='main.jpg')}}">
+                            <span class="card-title">About CleanFix</span>
+                        </div>
+                        <div class="card-content"><br>
+                            <p>
+                                CleanFix Computers is a from-home student-operated computer repair business offering cheap, fast, convenient & up-to date computer service.
+                            </p><br>
+                            <p>
+                                I have 7 years of computer software & hardware repair experience as well as over 50 likes from satisfied customers on the CleanFix Computers Facebook page proving that you don't have to sacrifice quality with cheap computer repairs.
+                            </p><br>
+                            <p>
+                                I provide an in-home repair service where your computer is repaired in your very own home with personalized advice on how to avoid problems in the future when applicable. If you do not have time for an in-home visit or if your repair is particularly complicated
+                                I also offer a pick-up & delivery service where your computer gets picked up and dropped of fixed free of additional charge at a time & date suitable for you.
+                            </p><br>
+                            <br>
+                            <div class="divider"></div>
+                            <br>
+                            <blockquote>
+                                <i>You can get advice, a quote, or arrange a repair by requesting a call-back using the 'Get a call-back' card.</i>
+                            </blockquote>
+                            <blockquote><i>
+                                    Use the service coverage checker card to make sure I cover your area.</i>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m12 l6">
+                    <div class="card">
+
+                        <div class="card-content">
+                            <span class="card-title">Service Coverage Checker</span><br><br>
+                            <p>CleanFix Computers is a business run from home providing in-home repairs as well as a pick-up & delivery service, neither of those require you leaving the house :) but they do require your home to be within a reasonable distance
+                                from me.</p><br>
+                            <p>Please type in your full Post Code below to find out if I cover your area.</p><br>
+                            <br>
+                            <div class="input-field">
+
+
+                                <div id="coverage-field-container">
+                                    <input id="post-code-checker" type="text" class="validate">
+                                    <label id="post-code-checker-label" for="post-code-checker">Post-Code</label>
+                                    <a id="post-code-button" class="waves-effect waves btn-flat right">Check Coverage</a>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="divider"></div><br><br>
+                            <div id="post-code-status"><span class='grey-text'>Waiting for Post Code</span></div><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l6">
+                    <div class="card">
+
+                        <div class="card-content">
+                            <span class="card-title">Why CleanFix</span> <br><br>
+                            <ul class="collection">
+
+                                <li class="collection-item">Student-operated</li>
+                                <li class="collection-item">Fast turnaround</li>
+                                <li class="collection-item">I can work late into the night so can visit at a time that suits you</li>
+                                <li class="collection-item">Easy to use coverage checker to confirm in-home visits at no extra charge</li>
+                                <li class="collection-item">Happy to teach how to use devices or apps</li>
+                                <li class="collection-item">Up to date call-back system means you don't waste your time listening to automated responses</li>
+                                <li class="collection-item">Very low, competitive prices due to not having a physical store to finance</li>
+                                <li class="collection-item">No Fix - No Fee Policy</li>
+                                <li class="collection-item">Friendly Service</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m12 l6">
+                    <div class="card">
+
+                        <div class="card-content">
+                            <span class="card-title">Get a call-back</span><br><br>
+                            <p class="grey-text text-lighten-1"><i>Service Up to Date - Checked at <span id = "service-active-status"></span></i></p>
+                            <br>
+                            <br>
+                            <ul>
+                                <li>
+                                    <p>Next available call-back time:
+                                        <span id="callback-time"></span>
+                                    </p>
+                                </li><br><br>
+                                <li>
+                                    <p>Next available in-home visit slot: <span id="visit-time"></span></p>
+                                </li>
+                            </ul><br>
+
+                            <div class="input-field">
+
+                                <input id="callback-number" type="text" class="validate">
+                                <label for="icon_prefix">Phone Number</label>
+                            </div><br>
+                            <blockquote><i>If the next available call-back time doesn't suit you feel free to send me a text or leave a voicemail at <a href="tel:07506874100">075-0687-4100</a> or e-mail <a href="mailto:bartek@cfcomputers.co.uk" target="_top">bartek@cfcomputers.co.uk</a></i></blockquote><br>
+
+                        </div>
+                        <div class="card-action">
+                            <a id="get-callback" class="btn-flat waves waves-effect blue-grey-text text-darken-1" onclick="goog_report_conversion ('#')">Request a call-back</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col s12 m12 l6">
+                    <div class="card">
+
+                        <div class="card-content">
+                            <span class="card-title">Pricing</span> <br><br>The pricing shown is for labour only, any parts that have to be purchased will add to the total cost.
+                            <br><br><br>
+                            <ul class="collection">
+
+                                <li class="collection-item">Screen replacement: £15</li>
+                                <li class="collection-item">Hard drive replacement: £10</li>
+                                <li class="collection-item">Solid state drive replacement: £10</li>
+                                <li class="collection-item">Laptop charging socket replacement: £20</li>
+                                <li class="collection-item">Full system wipe & re-install including configuration: £20</li>
+                                <li class="collection-item">Full system wipe & re-install including configuration & including keeping personal data: £30</li>
+                                <li class="collection-item">RAM replacement: £10</li>
+                                <li class="collection-item">Motherboard replacement: £20</li>
+                                <li class="collection-item">Any other part upgrades or replacements: from £10</li>
+                                <li class="collection-item">Laptop cooling maintenance: £30</li>
+                                <li class="collection-item">Desktop cooling maintenance: £20</li>
+                                <li class="collection-item">Hardware upgrade advice: Free</li>
+                                <li class="collection-item">Fee for problem diagnosis if you choose not to repair: £20</li>
+                            </ul><br>
+                            <div class="divider"></div><br>
+                            <blockquote><i>You will always be informed of the total (labour + parts) cost before repairs are carried out</i></blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <footer class="page-footer blue-grey darken-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">CleanFix Computers</h5>
+                        <p class="grey-text text-lighten-4">A student operated - cheap, convenient & up-to-date computer repair service<br><br><a href="tel:07506874100">075-0687-4100</a><br><a href="mailto:bartek@cfcomputers.co.uk" target="_top">bartek@cfcomputers.co.uk</a>
+                        </p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/CleanFixComputers/" target="_blank">Facebook</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://twitter.com/clean_fix" target="_blank">Twitter</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://goo.gl/maps/MgPVGHhSbzD2" target="_blank">Google Maps</a></li>
+                            <li><a class="grey-text text-lighten-3" href="//linkedin.com/in/bartekjuofg" target="_blank">Personal LinkedIn Profile</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2016 Copyright - Bartek Juszczak
+                    <a class="grey-text text-lighten-4 right">All Rights Reserved</a>
+                </div>
+            </div>
+        </footer>
+
+
+    </footer>
+
+</body>
+
+
+</html>

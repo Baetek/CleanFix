@@ -1,0 +1,295 @@
+body {
+    background-color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+}
+
+#nav-wrapper {
+    position: fixed;
+    width: 100%;
+    background-color: #2F5597;
+    height: 5rem;
+    z-index: 10;
+}
+
+#nav-wrapper-place-holder {
+    height: 8rem;
+    width: 100%;
+}
+#navigation-wrapper{
+    top: 5rem;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    line-height: 3rem;
+    height: 3rem;
+    z-index: 10;
+    margin: auto;
+    text-align: center;
+}
+
+#nav-buttons-wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    height: inherit;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link{
+
+
+}
+
+
+.main-content-wrapper {
+    width: 60rem;
+    height: inherit;
+    margin: auto;
+}
+
+.main-padded-wrapper {
+
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.full-height-image {
+    height: 100%;
+}
+
+#instant-contact-blurb-wrapper {
+    text-align: center;
+}
+
+.content-card {
+    line-height: 2rem;
+    background-color: white;
+}
+
+@media only screen and (max-width: 53rem) {
+    .main-content-wrapper {
+        width: 100%;
+    }
+
+    h5 {
+        margin-left: 1rem;
+    }
+
+}
+
+blockquote {
+    border-left-color: #2F5597;
+}
+
+.callback-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: baseline;
+}
+
+#social-icons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: baseline;
+}
+
+#direct-contact-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: baseline;
+}
+
+.coverage-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: baseline;
+
+}
+
+#coverage-input {
+    flex-grow: 2;
+}
+
+#callback-input {
+    flex-grow: 2;
+}
+
+#post-code-display {
+    text-align: center;
+    padding: 1rem;
+    color: slategray;
+}
+
+h5 {
+    color: slategray;
+}
+
+#call-back-time-display {
+    color: green;
+
+}
+
+#visit-time-display {
+    color: green;
+
+}
+
+.material-icons {
+    color: #2F5597;
+}
+
+h4 {
+    color: slategray;
+    font-size: 1.3rem;
+}
+
+.inline{
+    display: inline-block;
+}
+
+#tag-line {
+    font-size: 2.5rem;
+    color: dimgray;
+    text-align: center;
+    margin: auto;
+
+}
+
+#tag-line-subtext {
+    font-size: 1.3rem;
+    color: dimgray;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.direct-contact-element {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+label {
+    display: block;
+}
+
+#reviewsCard {
+    margin-top: -1rem;
+}
+
+.rating-star {
+    color: #E7711B;
+}
+
+.review-stars {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 0.5rem;
+}
+
+.review-name {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+#review-button-wrapper {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.review {
+    padding-top: 2rem;
+}
+
+.review-date {
+    padding-left: 1rem;
+}
+
+#bottom-content {
+    position: fixed;
+    bottom: 0px;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    background-color: lightslategray;
+    margin: auto;
+    width: 100%;
+    color: white;
+    text-align: center;
+    z-index: 10;
+}
+
+.full-width-image {
+    width: 100%;
+}
+
+.why-points {
+    margin-top: -1rem;
+}
+
+#side-bar {
+    margin-top: 5rem;
+    display: none;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 20rem;
+    background-color: white;
+    padding: 3rem;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+
+}
+
+.side-bar-item {
+    color: lightslategray;
+    padding-bottom: 2rem;
+}
+
+
+@media only screen and (min-width: 120rem) {
+    #side-bar {
+        display: inline;
+    }
+}
+
+#call-action-button-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1rem;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.instant-action {
+    flex-shrink: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#instant-contact-blur {
+    font-size: 1.3rem;
+    color: darkslategray;
+    text-align: center;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -9rem;
+    visibility: hidden;
+}
+
